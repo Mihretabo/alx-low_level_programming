@@ -1,16 +1,12 @@
 #include <stdio.h>
 /**
- * main - init
- * Return: 0
+ * main - entry point
+ * print size of various types
+ * Return: Always 0 (succes)
  */
 
 int main(void))
 {
-	char c;
-	int i;
-	long int li:
-	long long int lli;
-	float fl;
 
 	printf("Size of a char; %lu byte(s)\n", sizeof(char));
 	printf("Size of an int; %lu byte(s)\n", sizeof(int));
