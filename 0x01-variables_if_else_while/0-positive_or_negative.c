@@ -7,6 +7,7 @@
 */
 
 int main(void)
+/**fggfgf*/
 {
 int n;
 
