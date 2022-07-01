@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
-*main -> assigns a random number to the variable n each time its excuted and b
-*/
+ *main -> assigns a random number to the variable n each time its exc
+ */
 
 int main(void)
 {
@@ -20,5 +20,7 @@ if (n < 0)
 printf("%d is negative\n", n);
 
 return (0);
+
 }
+
 
