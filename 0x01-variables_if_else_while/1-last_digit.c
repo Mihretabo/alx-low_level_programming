@@ -4,7 +4,7 @@
 /**
 *main- assigns a random number to the variable n each time it is excuted and
 */
-int void main(void)
+int main(void)
 {
 int n;
 

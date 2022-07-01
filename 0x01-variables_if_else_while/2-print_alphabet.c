@@ -4,7 +4,7 @@
 /**
  *main- eyazageng new
  */
-int void main(void)
+int main(void)
 {
 int n;
 char ch;

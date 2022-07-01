@@ -4,7 +4,7 @@
 
 /* betty style doc for function main goes there */
 
-int void main(void)
+int void (void)
 {
 int n;
 char ch;
