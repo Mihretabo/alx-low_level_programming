@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main assigns a random number to the variable n each time it is excuted and
-*return
+*main- assigns a random number to the variable n each time it is excuted and
 */
-int main(void)
+int void main(void)
 {
 int n;
 

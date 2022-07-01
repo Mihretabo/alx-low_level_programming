@@ -6,7 +6,7 @@
  *main -> assigns a random number to the variable n each time its exc
  */
 
-int main(void)
+int void main(void) /*bgjh nkjk nkljlk*/
 {
 int n;
 srand(time(0));
