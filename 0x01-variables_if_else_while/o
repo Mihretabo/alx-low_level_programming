@@ -1,16 +1,16 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
-*main - Prints the alphabet in lowercase
+*main - prints all single digit numbers of base 10 starting from 0
+*followed by a new line
 *
 *Return: 0 if success
 **/
 int main(void)
 {
-char d = 'a';
+char d = '0';
 
-while (d <= 'z')
+while (d <= '9')
 {
 putchar(d);
 d++;
