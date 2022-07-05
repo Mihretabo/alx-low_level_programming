@@ -27,6 +27,5 @@ next = j + k;
 j = k;
 k = next;
 }
-
 return (0);
 }
