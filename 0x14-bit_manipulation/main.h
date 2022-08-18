@@ -1,20 +1,14 @@
+#ifndef MAIN_H
+#define MAIN_H
 
-#ifndef _MAIN_H_
-#define _MAIN_H_
-
-
-void reset_to_98(int *n);
-void swap_int(int *a, int *b);
-int _strlen(char *s);
-void _puts(char *str);
-void print_rev(char *s);
-void rev_string(char *s);
-void puts2(char *str);
-void puts_half(char *str);
-void print_array(int *a, int n);
-char *_strcpy(char *dest, char *src);
+unsigned int binary_to_uint(const char *b);
+void print_binary(unsigned long int n);
+int get_bit(unsigned long int n, unsigned int index);
+int set_bit(unsigned long int *n, unsigned int index);
+int clear_bit(unsigned long int *n, unsigned int index);
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
+int _atoi(const char *s);
 int _putchar(char c);
-int _atoi(char *s);
-
+int get_endianness(void);
 
 #endif
